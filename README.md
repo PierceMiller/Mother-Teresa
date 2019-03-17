@@ -4,4 +4,9 @@
 - Quizzes them on it and allows them to share their score
 
 # What I Learned
-- 
+- Facebook Login
+- SQL Database
+- ActionBars within Android Apps
+  - Their Functionality
+  - Different ways to implement 
+
