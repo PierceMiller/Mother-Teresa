@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallpaper"
+    tools:context=".Topic_Kindergarten">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:scrollbarStyle="insideOverlay"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/relativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible">
+
+            <TextView
+                android:id="@+id/Secondary_Title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:text="Secondary"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                android:textColor="#ffffff"
+                app:layout_constraintEnd_toStartOf="@+id/secondary_Header"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/topicsimage"
+                android:layout_width="match_parent"
+                android:layout_height="225dp"
+                android:scaleType="fitXY"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/Secondary_Title" />
+
+            <TextView
+                android:id="@+id/secondary_Header"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Preparing your child for Secondary School"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                android:textColor="#ffffff"
+                app:layout_constraintTop_toBottomOf="@+id/topicsimage"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <TextView
+                android:id="@+id/Heading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@android:color/background_light"
+                android:gravity="left"
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                android:textColor="#4682B3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/secondary_Header" />
+
+
+            <TextView
+                android:id="@+id/one_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@android:color/background_light"
+                android:gravity="left"
+                app:layout_constraintTop_toBottomOf="@+id/Heading" />
+
+            <TextView
+                android:id="@+id/two_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@android:color/background_light"
+                android:gravity="left"
+                app:layout_constraintTop_toBottomOf="@+id/one_info"
+                tools:layout_editor_absoluteX="16dp" />
+
+            <TextView
+                android:id="@+id/three_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@android:color/background_light"
+                android:gravity="left"
+                app:layout_constraintTop_toBottomOf="@+id/two_info" />
+
+            <TextView
+                android:id="@+id/four_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@android:color/background_light"
+                android:gravity="left"
+                app:layout_constraintTop_toBottomOf="@+id/three_info" />
+
+            <TextView
+                android:id="@+id/five_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="8dp"
+                android:background="@android:color/background_light"
+                android:gravity="left"
+                app:layout_constraintTop_toBottomOf="@+id/four_info" />
+
+            <TextView
+                android:id="@+id/six_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@android:color/background_light"
+                android:gravity="left"
+                app:layout_constraintTop_toBottomOf="@+id/five_info"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <TextView
+                android:id="@+id/seven_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@android:color/background_light"
+                android:gravity="left"
+                app:layout_constraintTop_toBottomOf="@+id/six_info"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <TextView
+                android:id="@+id/eight_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@android:color/background_light"
+                android:gravity="left"
+                app:layout_constraintTop_toBottomOf="@+id/seven_info"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <TextView
+                android:id="@+id/nine_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@android:color/background_light"
+                android:gravity="left"
+                app:layout_constraintTop_toBottomOf="@+id/eight_info"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <TextView
+                android:id="@+id/ten_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@android:color/background_light"
+                android:gravity="left"
+                app:layout_constraintTop_toBottomOf="@+id/nine_info"
+                tools:layout_editor_absoluteX="0dp" />
+
+
+        </android.support.constraint.ConstraintLayout>
+    </ScrollView>
+
+</RelativeLayout>

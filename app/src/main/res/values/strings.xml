@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Mother Teresa </string>
+    <string name="Babies">Babies</string>
+    <string name="Kindergarten">Kindergarten</string>
+    <string name="PrimarySchool">Primary School</string>
+    <string name="Intermediate">Intermediate</string>
+    <string name="Secondary">Secondary</string>
+    <string name="Topic6">Topic6</string>
+    <string name="logout">LogOut</string>
+    <string name="email">Email</string>
+    <string name="name">Name</string>
+    <string name="todo">TODO</string>
+    <string name="facebook_app_id">900528873668020</string>
+    <string name="fb_login_protocol_scheme">fb900528873668020</string>
+
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Mother Teresa</string>
+    <string name="nav_header_subtitle">Parenting Made Easy</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="your_score">Your Score:</string>
+    <string name="share_result">Share Result</string>
+    <string name="finish">TRY AGAIN</string>
+    <string name="app_site">https://www.facebook.com</string>
+    <string name="congratulations_you_have_finished_this_quiz">Congratulations!\nYou have finished this quiz!</string>
+
+</resources>
+
+
